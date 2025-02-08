@@ -2,7 +2,9 @@
 
 
  ### Installation:
- Download the .xpi file and add it as extension (aka add-on) in Firefox.
+ Download the .xpi file from this repository. Launch Firefox and in the adress bar type: "about:addons", click on settings and select "Install Add-on From File...":
+
+ 
 
  ### Use
  This is an extension for Firefox that simplifies the sharing of (med/bio)Rxiv preprints on BlueSky.
