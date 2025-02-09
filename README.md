@@ -2,7 +2,13 @@
 
 
  ### Installation:
- Download the .xpi file from this repository. Launch Firefox and in the adress bar type: "about:addons", click on settings and select "Install Add-on From File...":
+ Download the .xpi file from this repository. Launch Firefox and
+ 1. In the adress bar type: "about:addons"
+ 2. Click on settings
+ 3. Select "Install Add-on From File...":
+ 4. Navigate to the .xpi and select
+
+![screenshot](https://github.com/JoachimGoedhart/Rxiv2BlueSky/blob/main/Loading-addon.png)
 
  
 
