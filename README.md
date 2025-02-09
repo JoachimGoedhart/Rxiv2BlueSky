@@ -6,7 +6,7 @@
  1. In the adress bar type: "about:addons"
  2. Click on settings
  3. Select "Install Add-on From File...":
- 4. Navigate to the .xpi and select
+ 4. Navigate to the .xpi file and select it
 
 ![screenshot](https://github.com/JoachimGoedhart/Rxiv2BlueSky/blob/main/Loading-addon.png)
 
@@ -19,5 +19,5 @@
 
 ### Demo:
 
-![alt text](https://github.com/JoachimGoedhart/Rxiv2BlueSky/blob/main/Demo_Rxiv2BlueSky.gif)
+![demo of the extension](https://github.com/JoachimGoedhart/Rxiv2BlueSky/blob/main/Demo_Rxiv2BlueSky.gif)
 
