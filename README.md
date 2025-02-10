@@ -10,7 +10,7 @@
 
 ![screenshot](https://github.com/JoachimGoedhart/Rxiv2BlueSky/blob/main/Loading-addon.png)
 
- 
+ Alternatively, you can download the source files from this repository and temporarily load the extension by choosing "Debug Add-ons" and select the manifest.json file. This is a good option if you want to modify the source code.
 
  ## Use:
  This is an extension for Firefox that simplifies the sharing of (med/bio)Rxiv preprints on BlueSky.
