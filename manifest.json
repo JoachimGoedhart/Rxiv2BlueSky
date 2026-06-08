@@ -2,10 +2,10 @@
 {
   "manifest_version": 2,
   "name": "Preprint to Bluesky",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Share bioRxiv and medRxiv papers on Bluesky",
   "icons": {
-    "48": "icon.png"
+    "104": "icon.png"
   },
   "permissions": [
     "activeTab",
@@ -29,9 +29,13 @@
   "background": {
     "scripts": ["background.js"]
   },
-     "browser_specific_settings": {
-     "gecko": {
-      "id": "j.goedhart@uva.nl"
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "j.goedhart@uva.nl",
+      "data_collection_permissions": {
+        "required": [],
+        "optional": []
       }
-      }
+    }
+  }
 }
