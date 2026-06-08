@@ -21,3 +21,9 @@
 
 ![demo of the extension](https://github.com/JoachimGoedhart/Rxiv2BlueSky/blob/main/Demo_Rxiv2BlueSky.gif)
 
+## Note2Self
+
+To generate a verified installer (.xpi) for FireFox:
+- Generate a zip archive of `background.js`, `content.js`, `manifest.json`, `icon.png`, `icon-grey.png`
+- Submit the .zip file for review and conversion: https://addons.mozilla.org/en-US/developers/addon/submit/distribution
+- When succesfull download the .xpi file (right-click on link to 'Save as..')
