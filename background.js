@@ -42,7 +42,8 @@ browser.browserAction.onClicked.addListener(async (tab) => {
       const response = await browser.tabs.sendMessage(tab.id, { action: "getPaperInfo" });
       
       if (response && response.title && response.lastAuthor) {
-        const text = `${response.title}\n\nby ${response.lastAuthor} and team:\n\n${tab.url}`;
+        const cleanUrl = tab.url.split('?')[0];
+        const text = `${response.title} by ${response.lastAuthor} and team: ${cleanUrl}`;
         const blueskyUrl = `https://bsky.app/intent/compose?text=${encodeURIComponent(text)}`;
         browser.tabs.create({ url: blueskyUrl });
       }
